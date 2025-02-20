@@ -24,7 +24,7 @@ FROM nginx:alpine
 RUN rm -rf /usr/share/nginx/html/*
 
 # Download the custom nginx.conf file from GitHub
-RUN curl -o /etc/nginx/nginx.conf https://raw.githubusercontent.com/Suraz95/moview-review-frontend/main/nginx.conf
+RUN curl -o /etc/nginx/nginx.conf https://raw.githubusercontent.com/ManojVeeraSrinivasKolla/frontend/main/nginx.conf
 
 # Create the /run/nginx directory and set permissions
 RUN mkdir -p /run/nginx && chown -R nginx:nginx /run/nginx
