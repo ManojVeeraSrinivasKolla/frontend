@@ -2,7 +2,7 @@ import React from "react";
 import { AiFillStar } from "react-icons/ai";
 
 const RatingStar = ({ rating }) => {
-   if (!rating) return <p className="text-primary">No Ratings</p>;
+   if (!rating) return <p className="text-primary">No Ratings.</p>;
 
    return (
       <p className="flex items-center space-x-1">
